@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'crowny';
+  src: url(/Crowny\ -\ Personal\ Use.otf);
+}
+@font-face {
+  font-family: 'adelia';
+  src: url(/Adelia\ pasha\ bold.otf);
+}
+* body {
+  background-image: url(img/starry-sky-1654074_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  justify-content: center; 
+}
+
+/* INDEX */
+
+.btn-start {
+    color: white;
+    background-image: url(img/starry-sky-1654074_1920.jpg);
+    height: 70px;
+    width: 300px;
+    padding:10px 20px;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:20pt;
+    text-shadow: black;
+    position: relative;
+    margin: 0 auto; 
+    cursor: pointer;
+    padding-top: 10px;
+}
+#btn-start {
+  box-shadow:10px 10px;
+}
+#btn-start:hover {
+  box-shadow:10px 10px;
+}
+.box {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin: auto;
+  width: 50%;
+  background-color: rgb(60, 23, 119);
+}
+.input {
+  text-decoration:none;
+  font-size:15pt;
+  text-shadow: black;
+  position: relative;
+  margin: 0 auto; 
+  /* cursor: pointer; */
+  text-align: center;
+}
+#hobi tr td {
+  width: auto;
+  text-align: left;
+}
+#umur {
+  color: white;
+}
+#nama {
+  color: white;
+}
+#jk {
+  color: white;
+}
+#hobi {
+  color: white;
+}
+
+/* END INDEX */
+
+.judul {
+  text-align: center;
+  font-family: 'crowny';
+  color: white;
+  font-size: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.blok {
+  display: grid;
+  margin: 0 auto;
+  max-width:100%;
+}
+.blok-gambar {
+  margin: 0 auto;
+}
+.box-user img {
+  max-width:100%;
+  max-height: 100%;
+}
+.kiri {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.pict {
+  width: auto;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.kanan {
+  margin: 0 auto;
+  width: 200px;
+  height: 220px;
+  cursor: pointer;
+}
+.nama {
+  color: white;
+  font-size: 45px;
+  font-family: 'adelia';
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.umur {
+  color: white;
+  font-size: 45px;
+  font-family: 'adelia';
+  text-align: center;
+  /* margin: 0 auto; */
+  /* padding-top: 5px; */
+}
+.tables {
+	border-collapse: collapse;
+	width: 40%;
+  margin: 0 auto;
+}
+td {
+  font-size: 40px;
+  font-family: 'crowny';
+  padding-top: 20px;
+  padding-bottom: 5px;
+	text-align: center;
+	color:white;
+}
+.tblnama {
+  padding-top: 20px;
+  padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 5px solid rgb(117, 113, 113);
+  color:white;
+  font-family: 'adelia';
+  font-size: 30px;
+} 
+.tblhobi {
+  padding-top: 5px;
+  padding-bottom: 50px;
+} 
+.tblnama:hover {
+  color: black;
+}
+.tblnama:hover {
+  background-color:#f5f5f5;
+}
+
+/* LIST */
+
+/* END LIST */
